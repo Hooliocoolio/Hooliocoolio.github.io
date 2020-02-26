@@ -1,8 +1,8 @@
 body {
-	width: 800px;
-	margin: auto;
-	color: white;
-	background: #222222;
+    width: 800px;
+    margin: auto;
+    color: white;
+    background: #222222;
 }
 
 header {
@@ -12,8 +12,8 @@ header {
 }
 
 nav {
-     display:flex;
-     justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a {
@@ -26,7 +26,7 @@ a:hover {
 
 h1 {
     color: #0000FF;
-    padding:5px;
+    padding: 5px;
 }
 
 h3 {
@@ -42,5 +42,5 @@ h3 {
 
 .fb-comments {
     color: white;
-    width:350px;
+    width: 350px;
 }
