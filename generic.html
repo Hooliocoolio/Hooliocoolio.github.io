@@ -31,11 +31,7 @@
         <div class="inner">
           <h2>Menu</h2>
           <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">GitHub Repos</a></li>
-            <li><a href="elements.html">My Story</a></li>
-            <!-- <li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li> -->
+            <div w3-include-html="assets/includes/links.inc"></div>
           </ul>
           <a href="#" class="close">Close</a>
         </div>
@@ -177,5 +173,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/hoolio.js"></script>
+			<script> includeHTML(); </script>
   </body>
 </html>
